@@ -16,17 +16,14 @@ public class Main {
         IntList arrayList = new IntArrayList();
         IntList vector = new IntVector();
 
-        // Fill IntArrayList
         for (int i = 0; i < 20; i++) {
             arrayList.add(i);
         }
 
-        // Fill IntVector
         for (int i = 0; i < 30; i++) {
-            vector.add(i);
+            vector.add(i * 2);
         }
 
-        // Print contents
         System.out.println("IntArrayList contents:");
         for (int i = 0; i < 20; i++) {
             System.out.print(arrayList.get(i) + " ");
